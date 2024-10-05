@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  background-color: green;
+  color: black;
+  height: 60px;
+}
+
+.header-button{
+margin-left: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+color: white;
+font-size: 35px;
+}
+
+.footer{
+  background-color: brown;
+  color: black;
+  height: 60px;
+}
